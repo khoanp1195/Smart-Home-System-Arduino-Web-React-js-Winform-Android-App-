@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient1">
+
+
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="446dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/livingroom">
+
+
+                    <TextView
+                        android:id="@+id/livingroom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Living Room"
+                        android:fontFamily="@font/cobalt"
+                        android:textSize="20dp"
+                        android:textColor="@color/headings"
+                        android:textAlignment="center"
+                        android:layout_marginTop="50dp"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/kitchen"
+                    >
+                    <TextView
+                        android:id="@+id/kitchen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kitchen"
+                        android:fontFamily="@font/cobalt"
+                        android:textSize="20dp"
+                        android:textColor="@color/royalred"
+                        android:textAlignment="center"
+                        android:layout_marginTop="50dp"/>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/bedroom"
+                    >
+                    <TextView
+                        android:id="@+id/bedroom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bed Room"
+                        android:fontFamily="@font/cobalt"
+                        android:textSize="20dp"
+                        android:textColor="@color/royalred"
+                        android:textAlignment="center"
+                        android:layout_marginTop="50dp"/>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/bathroom"
+                    >
+                    <TextView
+                        android:id="@+id/bathroom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bath Room"
+                        android:fontFamily="@font/cobalt"
+                        android:textSize="20dp"
+                        android:textColor="@color/royalred"
+                        android:textAlignment="center"
+                        android:layout_marginTop="50dp"/>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/santhuong"
+                    >
+                    <TextView
+                        android:id="@+id/santhuong"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Terrace"
+                        android:fontFamily="@font/cobalt"
+                        android:textSize="20dp"
+                        android:textColor="@color/royalred"
+                        android:textAlignment="center"
+                        android:layout_marginTop="50dp"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/yard"
+                    >
+                    <TextView
+                        android:id="@+id/yard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yard"
+                        android:fontFamily="@font/cobalt"
+                        android:textSize="20dp"
+                        android:textColor="@color/royalred"
+                        android:textAlignment="center"
+                        android:layout_marginTop="50dp"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="220dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="58dp"
+        android:src="@drawable/lighton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

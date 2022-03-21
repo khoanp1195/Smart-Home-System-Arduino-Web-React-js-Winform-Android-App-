@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/grad"
+    tools:context=".faq.FaqActivity">
+
+    <TextView
+        android:id="@+id/i_faq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/mazzardlbolditalic"
+        android:text="FAQ's"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/img_faq"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/faq" />
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/img_faq"
+            android:fontFamily="@font/mazzardlbolditalic"
+            android:divider="@color/backgroundColor1"
+            android:dividerHeight="0.5dp"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft" />
+
+</RelativeLayout>

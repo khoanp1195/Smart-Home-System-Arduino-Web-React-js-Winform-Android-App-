@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1">
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="333dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/vlocity" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/smoke" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:text="Tình Trạng: "
+            android:textColor="#FF6363"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"/>
+
+
+
+        <TextView
+            android:id="@+id/tvTemp"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="!!!"
+            android:textColor="#FF6363"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:text="Độ(PPM)"
+            android:textColor="#FF6363"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"/>
+
+
+
+        <TextView
+            android:id="@+id/tvHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="!!!"
+            android:textColor="#2196F3"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="100dp"
+            android:layout_height="64dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/time" />
+
+        <TextView
+            android:id="@+id/hour"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:text="12:00"
+            android:textSize="30dp"
+            android:textColor="#ffff"
+            android:fontFamily="sans-serif-medium"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="100dp"
+            android:layout_height="64dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/date" />
+
+        <TextView
+            android:id="@+id/day1"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="2/1/2021"
+            android:textColor="#ffff"
+            android:textSize="30dp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="100dp"
+            android:layout_height="64dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/map" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="My room"
+                android:textColor="#ffff"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="100dp"
+        android:layout_height="64dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/alert" />
+
+        <TextView
+            android:id="@+id/fire"
+            android:layout_width="244dp"
+            android:layout_height="67dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Canh bao"
+            android:textColor="#ffff"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/activity_chatbot.xml" value="0.15677083333333333" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/activity_edit_profile.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/activity_faq.xml" value="0.15677083333333333" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/activity_main2.xml" value="0.15677083333333333" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/activity_on_boarding.xml" value="0.15677083333333333" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/activity_privacy_policy.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/activity_report_problem.xml" value="0.1" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/bot_msg_rv_item.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/changepassword.xml" value="0.1" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/chart2.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/chosenumber.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/conlight.xml" value="0.20416666666666666" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/dashboard.xml" value="0.15677083333333333" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/devicecontrol.xml" value="0.15677083333333333" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/header.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/hienthi.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/home.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/layout1.xml" value="0.20416666666666666" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/list_group.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/list_item.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/login_activity.xml" value="0.1" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/main_activity1.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/pair.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/profile.xml" value="0.16770833333333332" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/signup_activity.xml" value="0.16770833333333332" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/splashscreen.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/tip.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/layout/user_msg_rv_item.xml" value="0.2" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/menu/menu_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/DOANCHUYENNGANH/app/src/main/res/menu/popup_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
